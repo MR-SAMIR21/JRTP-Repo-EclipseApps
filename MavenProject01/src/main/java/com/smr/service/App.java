@@ -12,15 +12,16 @@ public class App
 	}
 	
 	public int mul(int x, int y) {
-		System.out.println("mul()");
+		System.out.println("mul() method");
 		System.out.println("Hello");
-		return x*y;
+		int c=x*y;
+		return c;
 	}
 	
 	public int div(int x , int y) {
-		System.out.println("mul() method");
-		int c=x*y;
-		return c;
+		System.out.println("Div() method");
+		return x/y;
+		
 	}
 	
     public static void main( String[] args )
