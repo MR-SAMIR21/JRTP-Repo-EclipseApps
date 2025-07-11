@@ -24,6 +24,11 @@ public class App
 		
 	}
 	
+	public String reverse(String name) {
+		StringBuffer sb = new StringBuffer();
+		return sb.reverse().toString();
+	}
+	
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
