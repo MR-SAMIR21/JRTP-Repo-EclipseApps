@@ -13,6 +13,7 @@ public class App
 	
 	public int mul(int x, int y) {
 		System.out.println("mul()");
+		System.out.println("Hello");
 		return x*y;
 	}
 	
