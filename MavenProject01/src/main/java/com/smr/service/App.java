@@ -17,7 +17,9 @@ public class App
 	}
 	
 	public int div(int x , int y) {
-		return x/y;
+		System.out.println("mul() method");
+		int c=x*y;
+		return c;
 	}
 	
     public static void main( String[] args )
